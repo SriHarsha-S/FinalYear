@@ -1,0 +1,37 @@
+﻿Build started 03/03/2016 8:42:44 PM.
+     1>Project "C:\Users\ss10\Documents\Visual Studio 2013\Projects\FinalYear\FinalYear\FinalYear.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /errorReport:prompt /clr:nostdlib Listeners.cpp
+         Listeners.cpp
+     1>c:\users\ss10\documents\visual studio 2013\projects\finalyear\finalyear\MainForm.h(393): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\ss10\documents\visual studio 2013\projects\finalyear\finalyear\MainForm.h(394): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Listeners.cpp(83): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\opencv\build\include\opencv2\core\cvstd.hpp(599): warning C4793: 'cv::String::String' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>c:\opencv\build\include\opencv2\core\mat.inl.hpp(392): warning C4793: 'cv::Mat::Mat' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>c:\opencv\build\include\opencv2\core\mat.inl.hpp(681): warning C4793: 'cv::Mat::release' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>c:\opencv\build\include\opencv2\core\mat.inl.hpp(1872): warning C4793: 'cv::SparseMat::addref' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>c:\opencv\build\include\opencv2\core\mat.inl.hpp(3473): warning C4793: 'cv::UMat::addref' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>c:\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: 'cv::detail::PtrOwner::incRef' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>c:\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: 'cv::detail::PtrOwner::decRef' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ss10\Documents\Visual Studio 2013\Projects\FinalYear\x64\Release\FinalYear.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\x64\vc14\lib opencv_world310.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:x64\Release\FinalYear.ChooseVideoType.resources /ASSEMBLYRESOURCE:x64\Release\FinalYear.ProgressWindow.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\ss10\Documents\Visual Studio 2013\Projects\FinalYear\x64\Release\FinalYear.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Release\Listeners.obj
+         x64\Release\MyForm.obj
+         x64\Release\ProgressWindow.obj
+         "x64\Release\.NETFramework,Version=v4.5.2.AssemblyAttributes.obj"
+     1>MyForm.obj : warning LNK4248: unresolved typeref token (0100002B) for 'CvCapture'; image may not run
+     1>Listeners.obj : warning LNK4248: unresolved typeref token (0100002B) for 'CvCapture'; image may not run
+     1>MyForm.obj : warning LNK4248: unresolved typeref token (0100002C) for 'cv.IVideoCapture'; image may not run
+     1>Listeners.obj : warning LNK4248: unresolved typeref token (0100002C) for 'cv.IVideoCapture'; image may not run
+         FinalYear.vcxproj -> C:\Users\ss10\Documents\Visual Studio 2013\Projects\FinalYear\x64\Release\FinalYear.exe
+     1>Done Building Project "C:\Users\ss10\Documents\Visual Studio 2013\Projects\FinalYear\FinalYear\FinalYear.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.65
